@@ -1,0 +1,18 @@
+// este ejercicio consiste en pedirle al usuario dos valores y determinar cual valor es mayor
+package ejercicios;
+
+import java.util.Scanner;
+
+public class Ejercicios {
+    
+    public static void main(String[] args) {
+        Scanner consola = new Scanner(System.in);
+        System.out.println("Ingrese el 1er valor: ");
+        var valor1 = Integer.parseInt(consola.nextLine());
+        System.out.println("Ingrese el 2do valor: ");
+        var valor2 = Integer.parseInt(consola.nextLine());
+        var resultado = (valor1 > valor2) ? valor1 : valor2;
+        System.out.println("El valor mayor es : " + resultado);
+    }
+    
+}
