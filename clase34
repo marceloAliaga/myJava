@@ -11,7 +11,7 @@ public class Ejercicios {
         var valor1 = Integer.parseInt(consola.nextLine());
         System.out.println("Ingrese el 2do valor: ");
         var valor2 = Integer.parseInt(consola.nextLine());
-        var resultado = (valor1 > valor2) ? valor1 : valor2;
+        var resultado = (valor1 > valor2) ? valor1 : valor2;    //en este ejercicio usamos el oreador ternario en vez de la estructura if, else para elegir entre 2 opciones booleanas
         System.out.println("El valor mayor es : " + resultado);
     }
     
