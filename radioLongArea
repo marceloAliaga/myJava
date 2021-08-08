@@ -1,0 +1,16 @@
+package ejercicios;
+
+import java.util.Scanner;
+
+public class Ejercicios {
+    
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Ingrese el radio de la circunferencia: ");
+        var radio = Double.parseDouble(sc.nextLine());
+        var longitud = 2* Math.PI * radio ;
+        var area = Math.PI * Math.pow(radio,2);
+        System.out.println("La longitud de la circunferencia es: " + longitud + "\nEl area de la circunferencia es: " + area);
+        
+    }
+}
