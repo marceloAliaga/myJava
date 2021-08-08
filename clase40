@@ -1,0 +1,22 @@
+//LO TENGO Q CORREGIR
+
+import java.util.Scanner;
+
+public class Ejercicios {
+    
+    public static void main(String[] args) {
+    Scanner consola = new Scanner(System.in);
+    System.out.println("Proporciona un valor entre 0 y 10: ");
+    var calificacion = Integer.parseInt(consola.nextLine());
+    var calificacionTexto = "calificacion desconocida";
+    calificacionTexto = switch (calificacion) {
+            case 9, 10 -> "A";
+            case 8 -> "B";
+            case 7 -> "C";
+            case 6 -> "D";
+            case 5, 4, 3, 2, 1, 0 -> "F";
+            default -> "Valor desconocido";
+        };    
+    System.out.println("Su calificacion es: " + calificacionTexto);
+  }
+}
