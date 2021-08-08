@@ -1,3 +1,6 @@
+// este ejercicio fue sacado de http://puntocomnoesunlenguaje.blogspot.com/p/ejercicios.html 
+// Enunciado: Programa que lea un radio y devuelve la longitud de la circunferencia y su area
+
 package ejercicios;
 
 import java.util.Scanner;
